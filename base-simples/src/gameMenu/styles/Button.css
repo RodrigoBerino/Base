@@ -1,0 +1,76 @@
+.buttonWrapper {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.buttonContainer {
+  border-radius: 14px;
+  box-shadow: 0 0 0 2px rgba(61, 112, 201, 0.4);
+  padding: 2px;
+}
+
+.buttonInner {
+  border-radius: 12px;
+  padding: 7px 5px;
+}
+
+.buttonContent {
+  border-radius: 8px;
+  padding: 6px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonText {
+  text-shadow: 0 1px 0 rgba(60, 85, 17, 1);
+  text-align: center;
+  color: #fff;
+  font: 500 26px/1 Pixellari, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.success {
+  background-color: rgb(52, 85, 16);
+}
+
+.success .buttonInner {
+  background-color: rgb(52, 85, 16);
+}
+
+.success .buttonContent {
+  background-color: rgb(52, 85, 16);
+}
+
+.success .buttonText {
+  font-size: 36px;
+}
+
+.primary {
+  background-color: rgb(28, 67, 132);
+}
+
+.primary .buttonInner {
+  background-color: rgb(13, 52, 116);
+}
+
+.primary .buttonContent {
+  background-color: rgb(28, 67, 132);
+}
+
+.iconWrapper {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .buttonContent {
+    padding-left: 20px;
+  }
+}

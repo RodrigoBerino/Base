@@ -1,0 +1,84 @@
+.header {
+  background-color: rgb(28, 67, 132);
+  box-shadow: 0 4px 4px rgba(30, 70, 130, 0.25);
+  display: flex;
+  min-height: 80px;
+  padding: 0 64px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  width: 121px;
+  height: auto;
+}
+
+.userControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notificationButton {
+  background-color: #fff;
+  border-radius: 32px;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notificationIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.userDropdown {
+  height: 48px;
+}
+
+.userProfile {
+  background-color: #fff;
+  border-radius: 28px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e7e7e7;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #888;
+  font: 500 16px/1 Poppins, sans-serif;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.dropdownTrigger {
+  padding: 4px 0;
+}
+
+.dropdownIcon {
+  width: 17px;
+  height: auto;
+  fill: #888;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 0 20px;
+  } 
+}
